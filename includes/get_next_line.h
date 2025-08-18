@@ -3,6 +3,7 @@
 
 # define BUFFER_SIZE 42
 
+# include <fcntl.h>
 # include "libft.h"
 
 /* 从 static 保存的残余和 buffer 拼接 */
