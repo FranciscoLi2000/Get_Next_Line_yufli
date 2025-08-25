@@ -4,7 +4,8 @@
 # define BUFFER_SIZE 42
 
 # include <fcntl.h>
-# include "libft.h"
+# include <unistd.h>
+# include <stdlib.h>
 
 /* 从 static 保存的残余和 buffer 拼接 */
 char	*ft_strjoin_and_free(char *s1, char *s2);
